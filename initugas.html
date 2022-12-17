@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pertemuan 11</title>
+    <style>
+        h1,
+        p {
+            margin: 0px;
+        }
+
+        #container {
+            width: 960px;
+            margin: 10px auto;
+            /* background-color: #f2f2f2; */
+            height: 620px;
+        }
+
+        /* Mengatur ukuran container */
+
+        #container>header {
+            width: 940px;
+            float: left;
+            margin: 10px;
+            /* background-color: #d5d2d2; */
+            height: 150px;
+        }
+
+        /* Mengatur ukuran elemen header */
+
+        #logo {
+            width: 150px;
+            height: 80px;
+            float: left;
+            /* background-color: #adacac; */
+            margin: 10px;
+            clear: both;
+        }
+
+        nav {
+            float: left;
+            background-color: bisque;
+            margin: 0 10px;
+            clear: both;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            height: 20px;
+            display: block;
+        }
+
+        nav ul a:hover {
+            color: white;
+            background-color: #838181;
+        }
+
+        main {
+            width: 700px;
+            float: left;
+            margin: 0px 10px 10px 10px;
+            background-color: yellow;
+            height: 370px;
+        }
+
+        article {
+            width: 680px;
+            float: left;
+            margin: 10px;
+            background-color: aqua;
+            height: 350px;
+        }
+
+        article header,
+        article section,
+        article footer {
+            background-color: white;
+            width: 640px;
+            padding: 10px;
+            margin: 10px 10px 0 10px;
+            float: left;
+            clear: both;
+        }
+
+        article header {
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 230px;
+            float: left;
+            background-color: yellow;
+            height: 370px;
+        }
+
+        aside section {
+            background-color: white;
+            width: 190px;
+            padding: 10px;
+            margin: 10px 10px 0 10px;
+            height: 90px;
+            float: left;
+            clear: both;
+        }
+
+        footer {
+            width: 940px;
+            float: left;
+            margin: 0px 10px 10px 10px;
+            background-color: #d5d2d2;
+            height: 60px;
+        }
+
+        footer div {
+            margin: 30px 10px;
+        }
+
+        footer p {
+            float: left
+        }
+
+        footer nav {
+            float: right;
+            margin: -40px 0 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- header pembuka -->
+        <header>
+            <div id="logo"><img src="traveloka.svg" alt=""> </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="sejarah.html">Sejarah</a></li>
+                    <li><a href="geografis.html">Geografis</a></li>
+                    <li><a href="wisata.html">Wisata</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- penutup header -->
+
+        <!-- main pembuka -->
+        <main>
+            <article>
+                <header>
+                    <h1>Lombok</h1>
+                    <img src="lombok.png" alt="">
+
+                </header>
+                <section>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur unde dignissimos rem
+                        ducimus asperiores quisquam, fugiat ratione voluptatum nemo voluptas dolor, ipsa iure est quasi.
+                    </p>
+
+                </section>
+                <footer>
+                    <p>Ahmad Erlanul Affan</p>
+                </footer>
+            </article>
+        </main>
+        <!-- main penutup -->
+
+        <!-- aside pembuka -->
+        <aside>
+            <section>
+                <h1>Wisata</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, vel.!</p>
+            </section>
+            <section>
+                <h1>Sejarah</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, voluptatibus?</p>
+            </section>
+            <section>
+                <h1>Geografis</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente?</p>
+            </section>
+        </aside>
+        <!-- aside penutup -->
+
+        <!-- footer pembuka -->
+        <footer>
+            <div>
+                <p> 2022 S1 - Ilkom Web Desain</p>
+                <nav>
+                    <ul>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="term_of_use.html">Term of User</a></li>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <!-- footer penutup -->
+    </div>
+</body>
+
+</html>
